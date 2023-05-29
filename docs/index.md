@@ -1,4 +1,4 @@
-# Title
+# Pickling and Structured Error Handling
 **Dev:** *SSimpers*  
 **Date:** *5/28/2023*
 
@@ -27,12 +27,14 @@ Placeholder sentence.
 ## Results
 Placeholder sentence.
 
-![Reference Title](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVzuNH94JSJFBTY091212m-ZIEox8Hxdm9zX23sPhWkDVUEt3wDFKf9IQp_FTW0UYxMKE&usqp=CAU "Reference Title")  
+![Reference Title](https://www.google.com "Reference Title")  
 Figure 1: Python script running in PyCharm
 
-![Reference Title](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVzuNH94JSJFBTY091212m-ZIEox8Hxdm9zX23sPhWkDVUEt3wDFKf9IQp_FTW0UYxMKE&usqp=CAU "Reference Title")  
+![Reference Title](https://www.google.com "Reference Title")  
 Figure 2: Python script running in Command Window
 
+![Reference Title](https://www.google.com "Reference Title")  
+Figure 3: Data Saved in “AppData.dat” File
 
 ## Summary
 Placeholder sentence.
