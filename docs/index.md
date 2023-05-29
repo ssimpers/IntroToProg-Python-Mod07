@@ -37,9 +37,9 @@ Figure 2: Python script running in Command Window
 ## Summary
 Placeholder sentence.
 
-## GitHub Page
-ADD LINK TO WEBSITE
-
 ## References
 1. [Reference Title](https://www.google.com "Reference Title")  
 2. [Reference Title](https://www.google.com "Reference Title")  
+
+## GitHub Page
+ADD LINK TO WEBSITE
