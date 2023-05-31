@@ -33,7 +33,7 @@ Figure 1: Python script running in PyCharm
 ![Figure 2](/docs/Figure2.png "Figure 2")  
 Figure 2: Python script running in Command Window
 
-![Figure 3](https://www.google.com "Figure 3")  
+![Figure 3](/docs/Figure3.png "Figure 3")  
 Figure 3: Data Saved in “AppData.dat” File
 
 ## Summary
