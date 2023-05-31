@@ -5,9 +5,6 @@
 ## Introduction
 Placeholder sentence.
 
-## Problem Statement
-Placeholder sentence.
-
 ## Pickle Module
 Placeholder sentence.
 
