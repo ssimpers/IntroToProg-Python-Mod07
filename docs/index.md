@@ -27,13 +27,13 @@ Placeholder sentence.
 ## Results
 Placeholder sentence.
 
-![Reference Title](/docs/Figure1.png "Reference Title")  
+![Figure 1](/docs/Figure1.png "Figure 1")  
 Figure 1: Python script running in PyCharm
 
-![Reference Title](https://www.google.com "Reference Title")  
+![Figure 2](/docs/Figure2.png "Figure 2")  
 Figure 2: Python script running in Command Window
 
-![Reference Title](https://www.google.com "Reference Title")  
+![Figure 3](https://www.google.com "Figure 3")  
 Figure 3: Data Saved in “AppData.dat” File
 
 ## Summary
