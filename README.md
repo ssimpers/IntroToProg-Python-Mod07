@@ -1,3 +1,3 @@
 # IntroToProg-Python-Mod07
 
-GitHub page: 
+GitHub page: https://ssimpers.github.io/IntroToProg-Python-Mod07/
