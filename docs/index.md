@@ -100,7 +100,7 @@ input("\n Press 'Enter' to exit")
 ## Results
 An example of the assignment script running in PyCharm is provided below in Figure 1.  The structured error handling catches the string “one hundred” entered as the grade when it tries to convert it to a floating value.  Additional conditional statements ask the user for a value between 0 and 100.  The information is shown in a list before and after pickling which appears the same.
 
-![Figure 1](https://github.com/ssimpers/IntroToProg-Python-Mod07/blob/fec04f206115282d4f9b2241995574d1d28f3e6a/docs/Figure1.png "Figure 1")  
+![Figure 1](https://raw.githubusercontent.com/ssimpers/IntroToProg-Python-Mod07/main/docs/Figure1.png "Figure 1")  
 Figure 1: Python script running in PyCharm
 
 Figure 2 below shows the script running similarly in the command window.
