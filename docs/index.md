@@ -1,14 +1,64 @@
 # Pickling and Structured Error Handling
 **Dev:** *SSimpers*  
-**Date:** *5/28/2023*
+**Date:** *5/30/2023*
 
 ## Introduction
 Placeholder sentence.
 
-## Topic 1
+## Problem Statement
 Placeholder sentence.
 
-Listing 1
+## Pickle Module
+Placeholder sentence.
+
+Listing 1: Pickle module
+```
+placeholder()
+```
+
+
+## Data
+Placeholder sentence.
+
+Listing 2: Data
+```
+placeholder()
+```
+
+## Processing - Writing Data to a File
+Placeholder sentence.
+
+Listing 3: Function to write data to a binary file
+```
+placeholder()
+```
+
+## Processing - Reading Data from a File
+Placeholder sentence.
+
+Listing 4: Function to read data from a binary file
+```
+placeholder()
+```
+
+## Input/Output - Get User Inputs
+Placeholder sentence.
+
+Listing 5: Function to get user inputs
+```
+placeholder()
+```
+
+## Main Body of the Script
+Placeholder sentence.
+
+Listing 6: Main body of the script
+```
+placeholder()
+```
+
+
+Listing 1: 
 ```
 try:
     new_file_name = input("Enter the name of the file you want to make: ")
@@ -21,8 +71,6 @@ except Exception as e:
 ```
 
 
-### Subtopic
-Placeholder sentence.
 
 ## Results
 Placeholder sentence.
