@@ -13,7 +13,7 @@ Placeholder sentence.
 
 Listing 1: Pickle module
 ```
-placeholder()
+import pickle  # imports code from Pickle module
 ```
 
 
@@ -22,7 +22,9 @@ Placeholder sentence.
 
 Listing 2: Data
 ```
-placeholder()
+# Data  ------------------------------------------------------------------------------------------------- #
+strFileName = 'FileData.dat'  # A string corresponding to the file name
+lstEntry = []  # A list that will store a row of user entered data
 ```
 
 ## Processing - Writing Data to a File
@@ -30,7 +32,16 @@ Placeholder sentence.
 
 Listing 3: Function to write data to a binary file
 ```
-placeholder()
+def write_data_to_file(file_name, list_of_data):
+    """ Writes data from a list to a binary file
+
+    :param file_name: (string) with name of file:
+    :param list_of_data: (list) of data:
+    :return: nothing
+    """
+    file = open(file_name, "wb")  # opens file in "write binary" mode, creates file if non-existent
+    pickle.dump(list_of_data, file)  # saves list to binary file
+    file.close()
 ```
 
 ## Processing - Reading Data from a File
@@ -38,7 +49,15 @@ Placeholder sentence.
 
 Listing 4: Function to read data from a binary file
 ```
-placeholder()
+def read_data_from_file(file_name):
+    """ Reads data from a binary file into a list
+
+    :param file_name: (string) with name of file:
+    :return: list_of_data: (list) of data
+    """
+    file = open(file_name, "rb")  # opens file in "read binary" mode
+    list_of_data = pickle.load(file)  # reads list from binary file and assigns to list variable
+    return list_of_data
 ```
 
 ## Input/Output - Get User Inputs
@@ -46,7 +65,25 @@ Placeholder sentence.
 
 Listing 5: Function to get user inputs
 ```
-placeholder()
+def get_user_input():
+    """  Gets name and grade to be stored in a list
+
+    :return: (string, float) with name and grade data
+    """
+    name = str(input(" Enter student name: "))  # capture user input for student name
+    while True:
+        try:
+            grade = float(input(" Enter grade (0 - 100): "))  # capture user input for grade
+        except ValueError:  # error from converting letters to float
+            print(" Please only enter numbers!")
+            continue
+        else:
+            if grade < 0 or grade > 100:  # only accept numbers from 0 to 100
+                print(" Please enter a number from 0 to 100!")
+            else:
+                break
+    entry = [name, grade]  # assigns user input name and grade to list
+    return entry
 ```
 
 ## Main Body of the Script
@@ -54,23 +91,13 @@ Placeholder sentence.
 
 Listing 6: Main body of the script
 ```
-placeholder()
+# Presentation (Main Body of Script) -------------------------------------------------------------------- #
+lstEntry = get_user_input()  # get user input and assign to list
+print("\n List prior to pickling: ", lstEntry)  # print the list prior to pickling
+write_data_to_file(strFileName, lstEntry)  # pickle the list into binary file
+print(" List after pickling and unpickling: ", read_data_from_file(strFileName))  # print the unpickled list
+input("\n Press 'Enter' to exit")
 ```
-
-
-Listing 1: 
-```
-try:
-    new_file_name = input("Enter the name of the file you want to make: ")
-    if new_file_name.isnumeric():
-        raise Exception('Do not use numbers for the file\'s name')
-except Exception as e:
-    print("There was a non-specific error!")
-    print("Built-In Python error info: ")
-    print(e, e.__doc__, type(e), sep='\n')
-```
-
-
 
 ## Results
 Placeholder sentence.
@@ -90,6 +117,3 @@ Placeholder sentence.
 ## References
 1. [Reference Title](https://www.google.com "Reference Title")  
 2. [Reference Title](https://www.google.com "Reference Title")  
-
-## GitHub Page
-ADD LINK TO WEBSITE
