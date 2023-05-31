@@ -112,7 +112,3 @@ Figure 3: Data Saved in “FileData.dat” File
 
 ## Summary
 Placeholder sentence.
-
-## References
-1. [Reference Title](https://www.google.com "Reference Title")  
-2. [Reference Title](https://www.google.com "Reference Title")  
