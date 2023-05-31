@@ -105,12 +105,12 @@ Figure 1: Python script running in PyCharm
 
 Figure 2 below shows the script running similarly in the command window.
 
-![Figure 2](https://github.com/ssimpers/IntroToProg-Python-Mod07/blob/fa466a6c8f448b1481844f63611125f2797d1d75/docs/Figure2.png "Figure 2")  
+![Figure 2](https://raw.githubusercontent.com/ssimpers/IntroToProg-Python-Mod07/main/docs/Figure2.png "Figure 2")  
 Figure 2: Python script running in Command Window
 
 Figure 3 shows the contents of the binary file.  The information is obfuscated but not encrypted.
 
-![Figure 3](https://github.com/ssimpers/IntroToProg-Python-Mod07/blob/fa466a6c8f448b1481844f63611125f2797d1d75/docs/Figure3.png "Figure 3")  
+![Figure 3](https://raw.githubusercontent.com/ssimpers/IntroToProg-Python-Mod07/main/docs/Figure3.png "Figure 3")  
 Figure 3: Data Saved in “FileData.dat” File
 
 ## Summary
