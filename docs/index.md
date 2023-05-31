@@ -34,7 +34,7 @@ Figure 1: Python script running in PyCharm
 Figure 2: Python script running in Command Window
 
 ![Figure 3](/docs/Figure3.png "Figure 3")  
-Figure 3: Data Saved in “AppData.dat” File
+Figure 3: Data Saved in “FileData.dat” File
 
 ## Summary
 Placeholder sentence.
